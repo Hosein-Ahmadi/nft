@@ -9,15 +9,6 @@
     --red-color: #FF3C00;
 }
 
-body {
-    font-family: kalameh;
-    background: var(--bg-dark);
-}
-
-input {
-    outline: none;
-}
-
 @font-face {
     font-family: kalameh;
     font-style: normal;
@@ -73,6 +64,17 @@ input {
     font-weight: normal;
     src: url('../font/WebFonts/_Woff/Gilroy-Bold.woff') format('woff');
 }
+
+body {
+    font-family: kalameh !important;
+    background: var(--bg-dark);
+}
+
+input {
+    outline: none;
+}
+
+
 
 
 ul {
